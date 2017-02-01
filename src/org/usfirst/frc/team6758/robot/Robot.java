@@ -11,6 +11,7 @@ import edu.wpi.first.wpilibj.Timer;
  * class.
  */
 public class Robot extends SampleRobot {
+	public static Subsystem exampleSubsystem;
 	RobotDrive robotDrive;
 
 	// Channels for the wheels
