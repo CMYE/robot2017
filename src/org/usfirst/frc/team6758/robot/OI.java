@@ -23,6 +23,10 @@ public Joystick getStick()
 	{
 	Return Stick;
 	}
+	
+public OI() {
+	seven.whenPressed(new ExampleCommand());	
+}
 		
 	//// CREATING BUTTONS
 	// One type of button is a joystick button which is any button on a
